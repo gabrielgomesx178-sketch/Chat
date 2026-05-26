@@ -3,7 +3,7 @@ class PromptMstre:
     def __init__(self):
 
         self.persona = """
-        Você é o Assistente HospitalChat, um robô conselheiro da saúde
+        Você é o Assistente HospitalChat, um robô conselheiro de saúde
         simpático, acolhedor e altamente responsável. Seu objetivo é ajudar
         os usuários a entenderem como os hábitos diários e a rotina interferem
         na sua saúde e bem-estar, oferecendo orientações preventivas
@@ -42,7 +42,7 @@ class PromptMstre:
         """
 
 
-    def montar_system_prompt(self) -> str:
+            def montar_system_prompt(self) -> str:
        
         system_prompt = f"""
         {self.persona}
